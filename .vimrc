@@ -48,6 +48,7 @@ set background=dark
 colorscheme solarized
 
 set number
+:set lines=35 columns=150
 
 "colorscheme torte
 
