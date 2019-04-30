@@ -38,7 +38,7 @@ Plugin 'scrooloose/nerdcommenter'
 
 Plugin 'honza/vim-snippets'
 
-
+Plugin 'severin-lemaignan/vim-minimap'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -57,3 +57,5 @@ behave mswin
 
 :map <C-o> :NERDTree<CR>
 nmap <F8> :TagbarToggle<CR>
+:map <C-m> :Minimap<CR>
+:map <C-j> :MinimapClose<CR>
